@@ -2,7 +2,7 @@
 
 class complex{
  public:
-    complex::complex(const double& real = 0, const double& imag = 0): real_(real), imag_(imag) { };
+    complex(const double& real = 0, const double& imag = 0): real_(real), imag_(imag) { };
     ~complex();
     void read();
     void display();
